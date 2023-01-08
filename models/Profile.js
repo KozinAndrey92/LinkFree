@@ -5,7 +5,7 @@ const ProfileSchema = new mongoose.Schema({
   views: {
     type: Number,
     default: 0,
-  },
+  },#check
   links: {
     default: [],
     type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],
